@@ -43,10 +43,10 @@ export default {
     },
   },
   methods: {
-    movingCard: function () {
+    movingCard: function() {
       this.$store.dispatch("updateList", { lists: this.lists });
     },
-    movingList: function () {
+    movingList: function() {
       this.$store.dispatch("updateList", { lists: this.lists });
     },
   },
